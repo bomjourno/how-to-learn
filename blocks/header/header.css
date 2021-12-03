@@ -1,0 +1,9 @@
+.header {
+    position: relative;
+    display: flex;
+    height: 756px;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
