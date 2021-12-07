@@ -16,7 +16,7 @@
         в своей жизни? <a class="header__link" href="#">Узнать &#8594;</a>
       </p>
       <img class="header__main-illustration" src="images/header-image.png" alt="Главная картинка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -75,8 +75,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer-two" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer-two" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -105,12 +105,12 @@
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <h3 class="section-subtitle">Про учёбу и мозг</h3>
-        <div class="table">
-          <div class="table__cell">
+        <ul class="table">
+          <li class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
             <p class="table__text">Число нейронов в мозге человека</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">2,1 миллиарда</h4>
             <p class="table__text">
               Число нуждающихся в повышении квалификации
@@ -118,20 +118,20 @@
             <p class="table__text">
               Всемирный Банк, 2017
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">1000 терабайт</h4>
             <p class="table__text">
               Объём памяти человека
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">500 триллионов</h4>
             <p class="table__text">
               Число ответственных за обучение нервных синапсов у взрослого человека
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
             <p class="table__text">
               Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
@@ -139,26 +139,26 @@
             <p class="table__text">
               Всемирный Банк, 2017
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">17–20 лет</h4>
             <p class="table__text">
               Пик обучаемости
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">1885 год</h4>
             <p class="table__text">
               Открытие кривой забывания
             </p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h4 class="table__heading">1889 год</h4>
             <p class="table__text">
               Открытие условного рефлекса
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
       <section class="khan">
         <div class="khan__container">
@@ -174,7 +174,7 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img class="khan__book-pic" src="images/khan-book.jpg" alt="Книга Салмана Хана">
             <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
           </div>
         </div>
@@ -244,13 +244,11 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-        <!-- Возможно стоило логотипы ниже загрузить фоном, не используя тег img, но тогда мне бы пришлось создавать модификаторы для каждого лого, в брифе не указано можно ли создавать модификаторы... 
-        плюс ко всему, на мой взгляд, эти логотипы несут в себе смысл - это вторая причина, по которой я не использовал background-image -->
         <div class="resources__logo-zone">
           <a href="#" target="_blank"><img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Лого Арзамас"></a>
           <a href="#" target="_blank"><img class="resources__logo" src="images/logo/resources-n1.svg" alt="Лого N+1"></a>
